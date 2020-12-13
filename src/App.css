@@ -4,10 +4,38 @@
   color: #FEE440;
   margin: 0px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #titleText {
-  margin: 0px;
-  padding: 20px;
+  margin: 5px;
+  padding-left: 20px;
+}
+
+#subTitle {
+  margin: 5px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 72px;
+  }
+  h3 {
+    font-size: 45px;
+  }
 }
