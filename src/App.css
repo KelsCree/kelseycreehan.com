@@ -11,6 +11,11 @@
   justify-content: center;
 }
 
+.about {
+  height: 100vh;
+
+}
+
 #titleText {
   margin: 5px;
   padding-left: 20px;
