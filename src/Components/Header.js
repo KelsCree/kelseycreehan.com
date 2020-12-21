@@ -17,7 +17,7 @@ export default function Header() {
           </section>
         </div>
         <section id="down-arrow">
-          <FontAwesomeIcon icon={faAngleDoubleDown} size="3x" />
+          <FontAwesomeIcon id="arrow" icon={faAngleDoubleDown} size="3x" />
         </section>
       </div>
     </>

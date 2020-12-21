@@ -83,6 +83,12 @@ button:hover {
 
 #down-arrow {
   align-self: flex-end;
-  margin: 25px;
+}
 
+#arrow {
+  margin: 25px;
+}
+
+#arrow:hover {
+  transform: scale(1.8);
 }
